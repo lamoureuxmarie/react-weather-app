@@ -54,7 +54,7 @@ export default function Weather(props) {
             </div>
             <div className="col-1">
                 <button Type="submit"
-                className="btn btn-primary"><i class="fas fa-redo-alt"></i></button>
+                className="btn"><i class="fas fa-redo-alt"></i></button>
             </div>
           </div>
         </form>

@@ -1,9 +1,10 @@
 .Weather {
   font-family: Helvetica, Arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 5px solid rgb(44, 44, 46);
   padding: 16px;
   border-radius: 10px;
   color: rgb(44, 44, 46);
+  background-color: rgb(255, 255, 255);
 }
 
 .Weather h1 {
@@ -36,7 +37,7 @@
 
 
 .Weather .temperature {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 64px;
     color: rgb(44, 44, 46);
 }
@@ -46,16 +47,33 @@
     bottom: 30%;
 }
 
+.Weather .form-control {
+    background-color: rgb(44, 44, 46);
+    color: rgb(255, 255, 255);
+}
+
+.Weather .form-control:focus {
+    background-color: rgb(44, 44, 46);
+    color: rgb(255, 255, 255);
+}
+
 .Weather .btn {
-    border: 1px solid #dadde1;
+    font-size: 22px;
+    position: relative;
+    right: 90%;
+    border: none;
     color: rgb(44, 44, 46);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .Weather .btn:hover {
-    border: 1px solid #dadde1;
-    color: rgb(44, 44, 46);
-    background-color: rgb(241, 241, 241);
+    color: rgb(233, 37, 2);
+    background-color: rgb(255, 255, 255);
+}
+
+.Weather .btn:focus {
+    color: rgb(233, 37, 2);
+    background-color: rgb(255, 255, 255);
 }
 
 .Weather .date {
