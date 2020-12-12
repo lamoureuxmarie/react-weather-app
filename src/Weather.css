@@ -30,6 +30,7 @@
     list-style: none;
   }
 
+
 .Weather .img {
     position: relative;
     bottom: -15px;
@@ -40,11 +41,6 @@
     font-weight: 600;
     font-size: 64px;
     color: rgb(44, 44, 46);
-}
-
-.Weather .unit {
-    position: relative;
-    bottom: 30%;
 }
 
 .Weather .form-control {
