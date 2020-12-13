@@ -1,0 +1,17 @@
+.WeatherTemperature a {
+    color: rgb(44, 44, 46);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.WeatherTemperature a:hover {
+    color: rgb(233, 37, 2);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.WeatherTemperature .unit {
+    color: rgb(44, 44, 46);
+    font-weight: 600;
+    font-size: 22px;
+}
